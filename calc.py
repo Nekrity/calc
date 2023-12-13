@@ -18,7 +18,7 @@ def celsius_to_fahrenheit(celsius):
 def sigma(tail):
     result=0
     a=1
-    while (tail>=a):
+    for i in range(tail):
         result = result + a
         a += 1
     return result
@@ -36,4 +36,3 @@ def weight(grams):
         return str(int(grams)) + "kg"
     else:
         return str(int(grams)) + "g"
-        
