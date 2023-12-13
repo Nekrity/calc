@@ -36,3 +36,4 @@ def weight(grams):
         return str(int(grams)) + "kg"
     else:
         return str(int(grams)) + "g"
+        
